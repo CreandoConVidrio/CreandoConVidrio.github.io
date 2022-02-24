@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>Creando Con vidrio</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    	<!--    CSS   -->
+   			<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">   
+    		<link rel="stylesheet" href="css/style.css">    
+    	<!-- PWA power! -->
+    		<link rel="manifest" href="manifest.json">    
+     	<!-- icons and style for PWA -->
+    		<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    		<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    		<link rel="manifest" href="./site.webmanifest">
+    		<meta name="msapplication-TileColor" content="#55f465">
+			<meta name="theme-color" content="#a8c9a7">
+			<style>
+				
+				body {
+ 	 				/*background-image: url('img/logo2.jpg');
+					background-repeat: no-repeat;
+  					background-attachment: fixed; letras: Calligraffitti Quintessential  Charm
+  					background-size: cover;*/
+					background-color: "80ced6";
+					font-family: 'Calligraffitti';font-size: 25px;
+				}
+
+				
+  				/* Make the image fully responsive */
+  				.carousel-inner img {
+   	 				width: 100%;
+   		 			height: 100%;
+  				}
+			</style>
+	</head>	
+	<body>
+		<p class="text-center"><img src="img/logo2.jpg"  width="100%" height="100%" class="d-inline-block align-top" alt=""></p>
+ 	<!-- Aqui empieza el menu superior
+	  	<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #80ced6;">
+			<div class="container-fluid">
+	  			<a class="navbar-brand" href="#accordion">
+	  				<img src="img/logo2_t.png" width="300" height="60" class="d-inline-block align-top" alt="">
+  				</a>
+ 		   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  					<span class="navbar-toggler-icon"></span>
+    			</button>
+   				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   				<ul class="navbar-nav mr-auto">
+    	  				<li class="nav-item active">
+						<a class="nav-link" href="#inicio"><b>INICIO</b> <span class="sr-only">(current)</span></a>
+		      			</li>
+  						<li class="nav-item active">
+      						<a class="nav-link" href="#quienesomos"><b>QUIENES SOMOS</b> <span class="sr-only">(current)</span></a>
+    					</li>  
+        				<li class="nav-item active">
+ 		   	        		<a class="nav-link" href="#calendario2021"><b>CALENDARIO 2021</b> <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#voluntarios"><b>VOLUNTARIOS</b> <span class="sr-only">(current)</span></a>
+						</li>  
+						<li class="nav-item active">
+							<a class="nav-link" href="#galeria"><b>GALERIA</b> <span class="sr-only">(current)</span></a>
+						</li>  
+						<li class="nav-item active">
+							<a class="nav-link" href="#contacto"><b>CONTACTO</b> <span class="sr-only">(current)</span></a>
+						</li>  
+     				</ul>
+    			</div> 
+			</div>
+	    </nav>
+		 <!-- Aqui termina el menu superior -->
+     -->
+		<div class="alert alert-info alert-dismissible">
+ 		   	<button type="button" class="close" data-dismiss="alert">&times;</button>
+    		<strong>Información:</strong> ¡En esta pagina no se utilizan Cookies ni se recopila información de ningún tipo!
+		</div>
+		<br><br>
+		<div id="accordion"> 
+			<div id="inicio" class="container prueba my-3">
+				<img src="img/inicio.jpg"  width="100%" height="100%" class="d-inline-block align-top" alt="Inicio">
+			</div>
+			<!-- Aqui empieza quienes somos-->
+			<div id="quienesomos" class="container-sm prueba my-3">
+				
+			</div>
+			<div id="calendario2021" class="container-sm prueba my-3 border" style="background-color: #2d8181;">
+						
+			</div>
+				<div id="luis" class="container-sm prueba my-3 border" style="background-color: #2d8181;">
+					
+			</div>
+			<div id="voluntarios" class="container-sm prueba my-3">
+				
+      </div>
+			<div id="galeria" class="container-sm prueba my-3 border" style="background-color: #2d8181;">
+				<h1><b>GALERIA DE IMAGENES</b></h1><br>
+					<div class="card">
+						<div class="card-header" style="background-color: #2d8181;">
+							<a style="color: #bfbf5f" class="collapsed card-link" data-toggle="collapse" href="#fincafotos1" onclick="myFunction()">
+					  		<b>Dale aqui para ve las fotos de la finca.</b>
+							</a>
+						</div>		  
+						<div id="fincafotos1" class="collapse" data-parent="#accordion">
+							<div class="card-body" style="background-color: #2d8181;">    
+				  				<script>
+				  					$(document).ready(function(){
+									$(".collapse").on('shown.bs.collapse', function(){
+					  				var elmnt = document.getElementById("finca1");
+					  				elmnt.scrollIntoView(); 
+									});
+			  						});
+			  						function myFunction() {		  
+										document.getElementById("a1").src = "finca/1.jpeg";
+										document.getElementById("a2").src = "finca/2.jpeg";
+										document.getElementById("a3").src = "finca/3.jpeg";
+										document.getElementById("a4").src = "finca/4.jpeg";
+										document.getElementById("a5").src = "finca/5.jpeg";
+										document.getElementById("a6").src = "finca/6.jpeg";
+		  							}
+								</script>
+								<div id="fincafotos" class="carousel slide" data-ride="carousel">
+									<ul class="carousel-indicators">
+										<li data-target="#fincafotos" data-slide-to="0" class="active"></li>
+										<li data-target="#fincafotos" data-slide-to="1"></li>
+										<li data-target="#fincafotos" data-slide-to="2"></li>
+										<li data-target="#fincafotos" data-slide-to="3"></li>
+										<li data-target="#fincafotos" data-slide-to="4"></li>
+										<li data-target="#fincafotos" data-slide-to="5"></li>
+									</ul>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img id="a1" alt="Finca La Pilonga" width="650" height="250">
+											<div class="carousel-caption">
+						  						<p>Un gran alcornoque</p>
+											</div>   
+					  					</div>
+				  						<div class="carousel-item">
+											<img id="a2" alt="Finca La Pilonga" width="650" height="250">
+											<div class="carousel-caption">
+					  							<p>Un gran alcornoque</p>
+											</div>   
+					  					</div>
+										<div class="carousel-item">
+											<img id="a3" alt="Finca La Pilonga" width="650" height="250">
+											<div class="carousel-caption">
+						 						<p>El agua nos nutre</p>
+											</div>   
+										</div>
+									<div class="carousel-item">
+										<img id="a4" alt="Finca La Pilonga" width="650" height="250">
+										<div class="carousel-caption">
+											<p>Paisaje de ensueño.</p>
+										</div>   
+									</div>
+									<div class="carousel-item">
+										<img id="a5" alt="Finca La Pilonga" width="650" height="250">
+										<div class="carousel-caption">
+						  					<p>Paisaje de ensueño</p>
+										</div>   
+				 					</div>
+									<div class="carousel-item">
+										<img id="a6" alt="Finca La Pilonga" width="650" height="250">
+										<div class="carousel-caption">
+											<p>Paisaje de ensueño.</p>
+										</div>   
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#fincafotos" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a class="carousel-control-next" href="#fincafotos" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+			  				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p></p>
+			<br><br><br>
+			<div id="contacto" class="container-fluid" style="background-color: #2d8181;">
+				<h3 align="center"><b>CONTACTO Y REDES SOCIALES.</b></h3>
+					<br><br>
+					<p class="text-center">
+						<a href="https://www.facebook.com/tolymateo" target="_blank"><img src="img/facebook.png" width="10%" height="100%" alt="Facebook" style="border:1;" /></a>
+						<a href="https://www.instagram.com/creandoconvidrio/" target="_blank"><img src="img/instagram.png" width="10%" height="100%" alt="Instagram" style="border:1;" /></a>
+						<a href="https://api.whatsapp.com/send?phone=34649614962&text=PaginaWeb" target="_blank"><img src="img/whatsapp.png" width="10%" height="100%" alt="WhatsApp" style="border:1;" /></a>
+						<a href="https://t.me/Tolyvidrio" target="_blank"><img src="img/telegram.png" width="10%" height="100%" alt="Telegram" style="border:1;" /></a>
+						<a href="mailto:creandoconvidrio@gmail.com" target="_blank"><img src="img/email.png" width="10%" height="100%" alt="E-mail" style="border:1;" /></a>
+					</p>
+						<br><br>
+						<h1 align="center"><b>Dirección: Carretera de Carramonte, 17 Local 1A. (Artix). Arrabal de Portillo(Valladolid).</b></h1>			
+			</div>			
+			<br>  
+  			<footer style="background-color: #2d8181;">
+  				<p class="text-center"><img src="img/logoabajo.png"  width="30%" height="30%" class="d-inline-block align-top" alt=""></p>
+			</footer>
+		</div>		
+ 	</body>
+</html>
